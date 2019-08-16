@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTest" parallel="tests">
+	<test thread-count="5" name="Test1">
+		<parameter name="Fname" value="Parveen" />
+		<parameter name="Lname" value="Sultana" />
+		<parameter name="Email" value="psmukta@yahoo.com" />
+		<parameter name="AEmail" value="psmukta@yahoo.com" />
+		<parameter name="Password" value="3566wewrr" />
+		<parameter name="Month" value="december" />
+		<parameter name="Day" value="02" />
+		<parameter name="Year" value="1980"></parameter>
+		<parameter name="Gender" value="Female"></parameter>
+
+		<classes>
+			<class name="InterviewQuestionPack1.TestNGParameter"></class>
+		</classes>
+	</test>
+	<test thread-count="5" name="Test2">
+		<parameter name="Fname" value="Parveen" />
+		<parameter name="Lname" value="Sultana" />
+		<parameter name="Email" value="psmukta@yahoo.com" />
+		<parameter name="AEmail" value="psmukta@yahoo.com" />
+		<parameter name="Password" value="3566wewrr" />
+		<parameter name="Month" value="december" />
+		<parameter name="Day" value="02" />
+		<parameter name="Year" value="1980"></parameter>
+		<parameter name="Gender" value="Female"></parameter>
+		<classes>
+			<class name="InterviewQuestionPack1.TestNGParameter"></class>
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

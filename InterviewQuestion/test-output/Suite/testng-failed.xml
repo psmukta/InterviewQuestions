@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Double"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="InterviewQuestionPack1.HowToDoubleClick">
+        <methods>
+          <include name="DoubleClick"/>
+        </methods>
+      </class> <!-- InterviewQuestionPack1.HowToDoubleClick -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
