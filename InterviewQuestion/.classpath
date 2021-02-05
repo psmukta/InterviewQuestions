@@ -32,5 +32,9 @@
 	<classpathentry kind="lib" path="C:/ITTraining/poi-3.11/ooxml-lib/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="lib" path="C:/ITTraining/selenium-java-3.12.0/commons-io-2.6.jar"/>
 	<classpathentry kind="lib" path="jxl.jar"/>
+	<classpathentry kind="lib" path="C:/ITTraining/AllJars/webdrivermanager-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/ITTraining/AllJars/httpcore5-5.1-beta2.jar"/>
+	<classpathentry kind="lib" path="C:/ITTraining/AllJars/slf4j-simple-1.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/ITTraining/AllJars/slf4j-api-1.7.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

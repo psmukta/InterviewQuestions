@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="crossbrowserPack.DataProviderBeforeTest">
+      <class name="WebTablePack.ReadSpecificCellData">
         <methods>
-          <include name="setUp" invocation-numbers="0 2"/>
+          <include name="readData"/>
+          <include name="openBrowse"/>
         </methods>
-      </class> <!-- crossbrowserPack.DataProviderBeforeTest -->
+      </class> <!-- WebTablePack.ReadSpecificCellData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
